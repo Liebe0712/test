@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box; /* Added box-sizing rule for better control over dimensions */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #333;
+    width: 200px;
+    padding: 10px;
+    height: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar ul li {
+    margin-bottom: 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.Данс {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding: 20px;
+    justify-content: space-around; 
+}
+
+.info {
+    text-align: center;
+    width: 800px;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+.bank-logo {
+    width: 150px; 
+    height: auto; 
+    margin: 10px 0; 
+    display: block; 
+    object-fit: contain; 
+}
